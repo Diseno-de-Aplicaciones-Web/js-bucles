@@ -241,3 +241,36 @@ for ( let nomeCidade in cidades ) {
 
     const temperaturaMedia = sumaTemperatudas/temperaturas.length
 } */
+
+
+// Funciones
+
+/* function calcularDesconto(producto, desconto = 0.1){
+    return producto.importe * desconto
+}
+
+function aplicarDesconto(producto, desconto){
+    return producto.importe - desconto
+}
+
+let producto = {
+    descripcion: "Patacas",
+    importe: 33.99
+}
+
+const desconto = calcularDesconto(producto)
+const precioFinal = aplicarDesconto(producto, desconto)
+
+console.log(precioFinal); */
+
+// Funcións e variables
+/* let valor = 11
+
+function faiCousas() {
+    // O que se declara na función, queda na funcion
+    let valor = 42
+    return valor
+}
+
+faiCousas()
+console.log(valor); */
